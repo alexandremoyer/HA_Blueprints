@@ -87,7 +87,8 @@ sequence:
                     "level": level,
                     "strobe": strobe,
                     "duration": duration
-                  }
+                  },
+                  "max_duration": duration
                 } | tojson }}
       - conditions:
           - condition: template
